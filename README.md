@@ -1,14 +1,62 @@
-# Getting Started with Create React App
+# Home Inventory Tracker with AI Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for tracking home inventory with an AI-powered assistant. Built with React, Material-UI, and Google's Gemini AI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Smart Inventory Management**: Track quantities, set thresholds, and get alerts
+- **AI Assistant**: Get personalized recommendations and insights
+- **Beautiful Dashboard**: Visual analytics with charts and statistics
+- **Category Management**: Organize items by categories with intuitive icons
+- **Real-time Alerts**: Get notified when items are running low
+- **Responsive Design**: Works seamlessly on desktop and mobile
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
+- React.js
+- Material-UI
+- Framer Motion for animations
+- Chart.js for data visualization
+- Google's Gemini AI API
+- Local Storage for data persistence
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheAryan77/Home-inventory.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd Home-inventory
+   npm install
+   ```
+
+3. Add your Gemini API key:
+   - Open `src/pages/ChatBot.js`
+   - Replace `YOUR_API_KEY` with your actual Gemini API key
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+1. **Dashboard**: View inventory statistics and alerts
+2. **Inventory**: Manage items by category
+3. **AI Assistant**: Click the bubble in the bottom-right corner for AI help
+4. **Add Items**: Use the + button in the inventory page
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
